@@ -1,0 +1,96 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(image/skyNight.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: relative;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.calculator {
+    border: 1px solid orangered;
+    padding: 20px;
+    border-radius: 20px;
+    background: rgba(255, 166, 0, 0.178);
+    box-shadow: 5px 5px 10px 10px rgba(0, 128, 0, 0.548);
+}
+
+.h1{
+    color: rgba(255, 166, 0, 0.24);
+}
+
+#inputBox {
+    width: 330px;
+    height: 80px;
+    border: none;
+    padding: 24px;
+    background: rgb(2, 78, 83);
+    box-shadow: 1px 1px 10px 10px rgba(255, 217, 0, 0.473);
+    font-size: 50px;
+    text-align: right;
+    cursor: pointer;
+    /*border-radius: 5px;*/
+}
+
+#inputBox::placeholder {
+    color: #fff;
+}
+
+button {
+    font-family: "Abril Fatface",serif;
+    border: none;
+    width: 60px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    background: #000;
+    color: orangered;
+    font-size: 20px;
+    box-shadow: -8px -8px 15px rgb(136, 98, 98);
+    cursor: pointer;
+}
+
+button:active{
+    background: #10853d5e;
+}
+
+
+.equalBTN {
+    background: greenyellow;
+    color: red;
+    box-shadow: -8px -8px 15px rgb(136, 98, 98);
+}
+
+.signs {
+    background: rgba(73, 17, 17, 0.404);
+    color: rgba(18, 145, 24, 0.918);
+}
+
+span{
+    font-size: 20px;
+    color: orange;
+    font-family: "Poppins", sans-serif;
+}
+
+img{
+    width: 35px;
+    height: 10px;
+}
+
+#red{
+    background: rgb(104, 2, 2);
+}
+
+#green{
+    background: red;
+}
